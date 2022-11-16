@@ -4,7 +4,7 @@ import ChatRoom from "./ChatRoom";
 
 export default function Chat() {
   return (
-    <div class="w3-container w3-padding-32 w3-center w3-black" >
+    <div class="w3-container w3-padding-32 w3-center w3-black margin-left: 200px" >
       <h1>Chat</h1>
       <hr />
 
