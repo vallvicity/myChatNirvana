@@ -88,10 +88,10 @@ export default function Conversation(props) {
         <hr />
         <div
           style={{
-            color: "black",
-            backgroundColor: "azure",
-            padding: "10px",
-            width: "400px",
+            color: "white",
+            backgroundColor: "black",
+            padding: "10px 200px 100px",
+            width: "40%",
             fontFamily: "Helvetica",
             fontSize: "13px"
           }}
@@ -102,7 +102,7 @@ export default function Conversation(props) {
         <input
           type="text"
           name="content"
-          placeholder="say hello"
+          placeholder="Di algo"
           onChange={(e) => setText(e.target.value)}
         />
 
